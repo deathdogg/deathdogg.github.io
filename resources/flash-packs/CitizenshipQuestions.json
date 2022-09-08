@@ -1,0 +1,348 @@
+{
+ "Question 1": {
+"Question": "What is the supreme law of the land?",
+"Answer": "the Constitution"},
+"question2": {
+"question": "What does the Constitution do?",
+"answer": "sets up the government; defines the government; protects basic rights of Americans"},
+"question3": {
+ "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+"answer": "We the People"},
+"question4": {
+ "question": "What is an amendment?",
+"answer": "a change (to the Constitution); an addition (to the Constitution)"},
+"question5": {
+ "question": "What do we call the first ten amendments to the Constitution?",
+"answer": "the Bill of Rights"},
+"question6": {
+ "question": "What is one right or freedom from the First Amendment?",
+"answer": "speech; religion; assembly; press; petition the government"},
+"question7": {
+ "question": "How many amendments does the Constitution have?",
+"answer": "twenty-seven (27)"},
+"question8": {
+ "question": "What dMid the Declaration of Independence do?",
+"answer": "announced our independence (from Great Britain); declared our independence (from Great Britain); said that the United States is free (from Great Britain)"},
+"QUESTION9": {
+ "question": "What are two rights in the Declaration of Independence?",
+"answer": "life; liberty; pursuit of happiness"},
+"question10": {
+ "question": "What is freedom of religion?",
+"anser": "You can practice any religion, or not practice a religion."},
+"question11": {
+ "question": "What is the economic system in the United States?",
+"answer": "capitalist economy - market economy"},
+"question12": {
+ "question": "What is the “rule of law”?",
+"anser": "Everyone must follow the law. - Leaders must obey the law.; Government must obey the law. - No one is above the law."},
+"question13": {
+ "question": "Name one branch or part of the government.",
+"answer": "Congress; legislative, President; executive, the courts; judicial"},
+"question14": {
+ "question": "What stops one branch of government from becoming too powerful?",
+"answer": "checks and balances - separation of powers"},
+"question15": {
+ "question": "Who is in charge of the executive branch?",
+"answer": "the President"},
+"question16": {
+ "question": "Who makes federal laws?",
+"answer": "Congress; Senate and House (of Representatives) - (U.S. or national) legislature"},
+"question17": {
+ "question": "What are the two parts of the U.S. Congress?",
+"answer": "the Senate and House (of Representatives)"},
+"question18": {
+ "question": "How many U.S. Senators are there?",
+"answer": "one hundred (100)"},
+"question19": {
+ "question": "We elect a U.S. Senator for how many years?",
+"answer": "six (6)"},
+"question20": {
+ "question": "Who is one of your state’s U.S. Senators now?",
+"answer": "link it"},
+"question21": {
+ "question": "The House of Representatives has how many voting members?",
+"answer": "four hundred thirty-five (435)"},
+"question22": {
+ "question": "We elect a U.S. Representative for how many years?",
+"answer": "two (2)"},
+"question23": {
+ "question": "Name your U.S. Representative.",
+"answer": "Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress."},
+"question24": {
+ "question": "Who does a U.S. Senator represent?",
+"answer": "all people of the state"},
+"question25": {
+ "question": "Why do some states have more Representatives than other states?",
+"answer": "(because of) the state’s population; (because) they have more people; (because) some states have more people"},
+"question26": {
+ "question": "We elect a President for how many years?",
+"answer": "four (4)"},
+"question27": {
+ "question": "In what month do we vote for President?",
+"answer": "November"},
+"question28": {
+ "question": "What is the name of the President of the United States now?",
+"answer": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States."},
+"question29": {
+ "question": "What is the name of the Vice President of the United States now?",
+"answer": "link it"},
+"question30": {
+ "question": "If the President can no longer serve, who becomes President?",
+"answer": "the Vice President"},
+"question31": {
+ "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+"answer": "the Speaker of the House"},
+"question32": {
+ "question": "Who is the Commander in Chief of the military?",
+"answer": "the President"},
+"question33": {
+ "question": Who signs bills to become laws?","
+"answer": "the President"},
+"question34": {
+ "question": "Who vetoes bills?",
+"answer": "the President"},
+"question35": {
+ "question": "What does the President’s Cabinet do?",
+"answer": "advises the President"},
+"question36": {
+ "question": "What are two Cabinet-level positions?",
+"answer": "Secretary of Agriculture, Secretary of Commerce, Secretary of Defense, Secretary of Education, Secretary of Energy, Secretary of Health and Human Services, Secretary of Homeland Security, Secretary of Housing and Urban Development, Secretary of the Interior, Secretary of Labor, Secretary of State, Secretary of Transportation, Secretary of the Treasury, Secretary of Veterans Affairs, Attorney General, Vice President"},
+"question37": {
+ "question": "What does the judicial branch do?",
+"answer": "reviews laws, explains laws, resolves disputes (disagreements), decides if a law goes against the Constitution"},
+"question38": {
+ "question": "What is the highest court in the United States?",
+"answer": "the Supreme Court"},
+"question39": {
+ "question": "How many justices are on the Supreme Court?",
+"answer": "link it"},
+"question40": {
+ "question": "Who is the Chief Justice of the United States now?",
+"answer": "link it"},
+"question41": {
+ "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+"answer": "to print money, to declare war, to create an army - to make treaties"},
+"question42": {
+ "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+"answer": "provide schooling and education, provide protection (police), provide safety (fire departments), give a driver’s license, approve zoning and land use"},
+"question43": {
+ "question": "Who is the Governor of your state now?"
+"answer": "Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor."},
+"question44": {
+ "question": "What is the capital of your state?",
+"answer": "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory."},
+"question45": {
+ "question": "What are the two major political parties in the United States?",
+"answer": "Democratic and Republican"},
+"question46": {
+ "question": "What is the political party of the President now?",
+"answer": "link it"},
+"question47": {
+ "question": "What is the name of the Speaker of the House of Representatives now?",
+"answer": "link it"},
+C: Rights and Responsibilities
+"question48": {
+ "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+"answer": "Citizens eighteen (18) and older (can vote)., You don’t have to pay (a poll tax) to vote., Any citizen can vote. (Women and men can vote.) - A male citizen of any race (can vote)."},
+"question49": {
+ "question": "What is one responsibility that is only for United States citizens?",
+"answer": "serve on a jury, vote in a federal election"},
+"question50": {
+ "question": "Name one right only for United States citizens.",
+"answer": "vote in a federal election, run for federal office"},
+"question51": {
+ "question": "What are two rights of everyone living in the United States?",
+"answer": "freedom of expression, freedom of speech, freedom of assembly, freedom to petition the government - freedom of religion, the right to bear arms"},
+What do we show loyalty to when we say the Pledge of Allegiance?
+the United States - the flag
+What is one promise you make when you become a United States citizen?
+give up loyalty to other countries
+defend the Constitution and laws of the United States - obey the laws of the United States
+serve in the U.S. military (if needed)
+serve (do important work for) the nation (if needed) - be loyal to the United States
+link it
+How old do citizens have to be to vote for President?
+eighteen (18) and older
+What are two ways that Americans can participate in their democracy?
+vote
+join a political party
+help with a campaign
+join a civic group
+join a community group
+give an elected official your opinion on an issue - call Senators and Representatives
+publicly support or oppose an issue or policy
+run for office
+write to a newspaper
+When is the last day you can send in federal income tax forms?
+April 15
+When must all men register for the Selective Service?
+at age eighteen (18)
+between eighteen (18) and twenty-six (26)
+MERICAN HISTORY
+D: Colonial Period and Independence
+What is one reason colonists came to America?
+freedom
+political liberty
+religious freedom
+economic opportunity - practice their religion - escape persecution
+Who lived in America before the Europeans arrived?
+American Indians - Native Americans
+What group of people was taken to America and sold as slaves?
+Africans
+people from Africa
+Why did the colonists fight the British?
+because of high taxes (taxation without representation)
+because the British army stayed in their houses (boarding, quartering) - because they didn’t have self-government
+
+Who wrote the Declaration of Independence?
+(Thomas) Jefferson
+When was the Declaration of Independence adopted?
+July 4, 1776
+There were 13 original states. Name three.
+New Hampshire - Massachusetts - Rhode Island
+Connecticut
+New York
+New Jersey
+Pennsylvania
+Delaware
+Maryland
+Virginia
+North Carolina - South Carolina - Georgia
+What happened at the Constitutional Convention?
+The Constitution was written.
+The Founding Fathers wrote the Constitution.
+When was the Constitution written?
+1787
+The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.
+(James) Madison
+(Alexander) Hamilton - (John) Jay
+Publius
+What is one thing Benjamin Franklin is famous for?
+U.S. diplomat
+oldest member of the Constitutional Convention - first Postmaster General of the United States
+writer of “Poor Richard’s Almanac”
+started the first free libraries
+Who is the “Father of Our Country”?
+(George) Washington
+Who was the first President?
+(George) Washington
+B: 1800s
+What territory did the United States buy from France in 1803?
+the Louisiana Territory - Louisiana
+Name one war fought by the United States in the 1800s.
+War of 1812
+Mexican-American War - Civil War
+Spanish-American War
+Name the U.S. war between the North and the South.
+the Civil War
+the War between the States
+Name one problem that led to the Civil War.
+slavery
+economic reasons - states’ rights
+What was one important thing that Abraham Lincoln did?
+freed the slaves (Emancipation Proclamation) - saved (or preserved) the Union
+led the United States during the Civil War
+What did the Emancipation Proclamation do?
+freed the slaves
+freed slaves in the Confederacy
+freed slaves in the Confederate states - freed slaves in most Southern states
+What did Susan B. Anthony do?
+fought for women’s rights - fought for civil rights
+C: Recent American History and Other Important Historical Information
+Name one war fought by the United States in the 1900s.
+World War I
+World War II
+Korean War
+Vietnam War
+(Persian) Gulf War
+Who was President during World War I?
+(Woodrow) Wilson
+Who was President during the Great Depression and World War II?
+(Franklin) Roosevelt
+
+Who did the United States fight in World War II?
+Japan, Germany, and Italy
+Before he was President, Eisenhower was a general. What war was he in?
+World War II
+During the Cold War, what was the main concern of the United States?
+Communism
+What movement tried to end racial discrimination?
+civil rights (movement)
+What did Martin Luther King, Jr. do?
+fought for civil rights
+worked for equality for all Americans
+What major event happened on September 11, 2001, in the United States?
+Terrorists attacked the United States.
+Name one American Indian tribe in the United States.
+USCIS Officers will be supplied with a list of federally recognized American Indian tribes. - Cherokee
+Navajo
+Sioux
+Chippewa - Choctaw - Pueblo
+Apache
+Iroquois - Creek
+Blackfeet - Seminole - Cheyenne - Arawak
+Shawnee - Mohegan - Huron
+Oneida
+Lakota - Crow - Teton - Hopi
+Inuit
+
+INTEGRATED CIVICS
+A: Geography
+Name one of the two longest rivers in the United States.
+Missouri (River)
+Mississippi (River)
+What ocean is on the West Coast of the United States?
+Pacific (Ocean)
+What ocean is on the East Coast of the United States?
+Atlantic (Ocean)
+Name one U.S. territory.
+Puerto Rico
+U.S. Virgin Islands
+American Samoa
+Northern Mariana Islands - Guam
+Name one state that borders Canada.
+Maine
+New Hampshire - Vermont
+New York
+Pennsylvania
+Ohio
+Michigan
+Minnesota
+North Dakota
+Montana
+Idaho
+Washington
+Alaska
+Name one state that borders Mexico.
+California
+Arizona
+New Mexico - Texas
+What is the capital of the United States?
+Washington, D.C.
+Where is the Statue of Liberty?
+New York (Harbor)
+Liberty Island
+ Also acceptable are New Jersey, near New York City, and on the Hudson (River).
+
+B: Symbols
+Why does the flag have 13 stripes?
+because there were 13 original colonies
+because the stripes represent the original colonies
+Why does the flag have 50 stars?
+because there is one star for each state - because each star represents a state
+because there are 50 states
+What is the name of the national anthem?
+The Star-Spangled Banner
+C: Holidays
+When do we celebrate Independence Day?
+July 4
+Name two national U.S. holidays.
+New Year’s Day
+Martin Luther King, Jr. Day - Presidents’Day
+Memorial Day
+Independence Day
+Labor Day
+Columbus Day
+Veterans Day
+Thanksgiving
+Christmas
