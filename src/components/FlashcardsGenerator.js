@@ -19,18 +19,18 @@ const FlashcardsGenerator = () => {
   <div>
    <div>
     <form>
-    <label>Question</label>
+    <label>Question
     <input
     type="text"
     name="question"
     onChange={evt => setQuestion(evt.target.value)}
-    value={question}/>
-    <label>Answer:</label>
+    value={question}/> </label>
+    <label>Answer:
     <input
     type="text"
     name="answer"
     onChange={evt => setAnswer(evt.target.value)}
-    value={answer}/>
+    value={answer}/> </label>
 
     <button onClick={handleAdd}>New Card</button>
    </form>

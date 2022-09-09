@@ -13,7 +13,7 @@ const Flashcards = (props) => {
   
    const handleSubmit = (evt) => {
   evt.preventDefault()
-  setProcessedData(JSON.parse(sourceData));
+  setProcessedData(JSON.parse(sourceData))
   setCards(processedData.map(i => <Flashcard data={i} key={keyGen()}></Flashcard>))
    }
 
@@ -29,14 +29,14 @@ return (
  <div>
   <div>
   <form onSubmit={handleSubmit}>
-    <textarea aria-required={true} onChange={onInputChange} value={sourceData}></textarea>
+    <label>Paste flashcard data here:<textarea aria-required={true} onChange={onInputChange} value={sourceData}></textarea> </label>
     <input type="submit"/>
     </form>
     </div>
     <div>
-      <p>{onCardChange(cardIndex)}</p>
+      {cards?.length > 0 ?  onCardChange(cardIndex): <p>Paste your flashcard data, or try pressing submit again to see your new cards appear.</p>}
 
-      <p>{cardIndex}</p>
+      <p>Card: {cardIndex+1}</p>
       <button onClick={evt => cardIndex<=0?setCardIndex(0):setCardIndex(cardIndex-1)}>Previous Card</button>
       <button onClick={evt => cardIndex < cards?.length-1? setCardIndex(cardIndex+1): setCardIndex(cardIndex)}>Next Card</button>
  </div>

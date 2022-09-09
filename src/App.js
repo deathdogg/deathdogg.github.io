@@ -35,6 +35,11 @@ function App() {
 }
 
 const Home = () => {
-  return <p>Welcome to my site</p>
+  return (
+  <div>
+    <h1>Welcome to my site</h1>
+  <p>This is my portfolio site, where I will be hosting my various projects. For more information about me, please check my about page.</p>
+  </div>
+  )
 }
 export default App;
