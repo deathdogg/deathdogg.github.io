@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/deathdogg/rhportfolio/static/js/main.d7b85cf4.js",
-    "index.html": "/deathdogg/rhportfolio/index.html",
-    "main.d7b85cf4.js.map": "/deathdogg/rhportfolio/static/js/main.d7b85cf4.js.map"
+    "main.js": "/static/js/main.d7b85cf4.js",
+    "index.html": "/index.html",
+    "main.d7b85cf4.js.map": "/static/js/main.d7b85cf4.js.map"
   },
   "entrypoints": [
     "static/js/main.d7b85cf4.js"
