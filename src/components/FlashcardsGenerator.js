@@ -2,7 +2,9 @@ import { useState } from "react"
 
 import React from 'react'
 import CopyToClipboard from "react-copy-to-clipboard";
-const FlashcardsGenerator = () => {
+import { useDocumentTitle } from "../hooks/useDocumentTitle";
+const FlashcardsGenerator = (props) => {
+  const [title, setTitle] = useDocumentTitle(props.siteTitle+": Flashcard Generator")
  const [cards, setCards] = useState([]);
  const [question, setQuestion] = useState("")
  const [answer, setAnswer] = useState("")
@@ -17,6 +19,7 @@ const FlashcardsGenerator = () => {
  }
  return (
   <div>
+    <h1>Flashcard Generator</h1>
    <div>
     <form>
     <label>Question

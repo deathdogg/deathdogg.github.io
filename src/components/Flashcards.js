@@ -3,9 +3,11 @@ import React, {useState} from "react";
 import Flashcard from "./Flashcard";
 import useSWR from "swr";
 import { fetcher} from './Helpers';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 
 const Flashcards = (props) => {
+  const [title, setTitle] = useDocumentTitle(props.siteTitle+": Flashcards")
  const [sourceData, setSourceData] = useState('');
  const [cards, setCards] = useState();
   const [processedData, setProcessedData] = useState();
@@ -13,8 +15,7 @@ const Flashcards = (props) => {
   
    const handleSubmit = (evt) => {
   evt.preventDefault()
-  setProcessedData(JSON.parse(sourceData))
-  setCards(processedData.map(i => <Flashcard data={i} key={keyGen()}></Flashcard>))
+  setCards(JSON.parse(sourceData).map(i => <Flashcard data={i} key={keyGen()}></Flashcard>))
    }
 
   const onInputChange = (evt) => setSourceData(evt.target.value)
@@ -24,17 +25,19 @@ const Flashcards = (props) => {
     }
     return <p>Nothing to display</p>
   }
+  
 
 return (
  <div>
+  <h1>Flashcard reader Utility</h1>
   <div>
-  <form onSubmit={handleSubmit}>
+  <form>
     <label>Paste flashcard data here:<textarea aria-required={true} onChange={onInputChange} value={sourceData}></textarea> </label>
-    <input type="submit"/>
+    <button onClick={handleSubmit}>Evaluate set</button>
     </form>
     </div>
     <div>
-      {cards?.length > 0 ?  onCardChange(cardIndex): <p>Paste your flashcard data, or try pressing submit again to see your new cards appear.</p>}
+      {cards?.length > 0 ?  onCardChange(cardIndex): <p>Paste your flashcard data, or try pressing "evaluate" again to see your new cards appear.</p>}
 
       <p>Card: {cardIndex+1}</p>
       <button onClick={evt => cardIndex<=0?setCardIndex(0):setCardIndex(cardIndex-1)}>Previous Card</button>

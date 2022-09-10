@@ -8,7 +8,9 @@ import {
 import Flashcards from './components/Flashcards'
 import Flashcard from './components/Flashcard'
 import FlashcardsGenerator from './components/FlashcardsGenerator';
+import { useDocumentTitle } from './hooks/useDocumentTitle';
 function App() {
+  const [siteTitle, setSiteTitle] = useDocumentTitle("RHPortfolio")
   return (
     <Router>
       <div className="App">
@@ -23,9 +25,9 @@ function App() {
           </ul>
         </nav>
       <Routes>
-        <Route path="/FlashcardsGenerator" element={<FlashcardsGenerator />}>
+        <Route path="/FlashcardsGenerator" element={<FlashcardsGenerator siteTitle={siteTitle}/>}>
         </Route>
-        <Route path="/Flashcards" element={<Flashcards />}>
+        <Route path="/Flashcards" element={<Flashcards siteTitle={siteTitle}/>}>
         </Route>
         <Route path="/" element={<Home />}/>
       </Routes>
