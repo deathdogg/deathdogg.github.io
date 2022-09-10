@@ -19,7 +19,7 @@ const FlashcardsGenerator = (props) => {
  }
  return (
   <div>
-    <h1>Flashcard Generator</h1>
+    <h1>Flashcards Generator</h1>
    <div>
     <form>
     <label>Question
