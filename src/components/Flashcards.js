@@ -2,7 +2,7 @@ import {v4 as keyGen} from 'uuid'
 import React, {useState} from "react";
 import Flashcard from "./Flashcard";
 import useSWR from "swr";
-import { fetcher} from './Helpers';
+import { fetcher, shuffle} from './Helpers';
 import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 
@@ -17,7 +17,6 @@ const Flashcards = (props) => {
   evt.preventDefault()
   setCards(JSON.parse(sourceData).map(i => <Flashcard data={i} key={keyGen()}></Flashcard>))
    }
-
   const onInputChange = (evt) => setSourceData(evt.target.value)
   const onCardChange = (index) => {
     if(cards) {
@@ -41,6 +40,8 @@ return (
 
       <p>Card: {cardIndex+1}</p>
       <button onClick={evt => cardIndex<=0?setCardIndex(0):setCardIndex(cardIndex-1)}>Previous Card</button>
+      <button
+      onClick={() => setCards(shuffle(cards.slice()))}>Shuffle Cards</button>
       <button onClick={evt => cardIndex < cards?.length-1? setCardIndex(cardIndex+1): setCardIndex(cardIndex)}>Next Card</button>
  </div>
  </div>)
