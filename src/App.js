@@ -1,3 +1,4 @@
+import './App.css'
 import {
   HashRouter as Router,
   Routes,
