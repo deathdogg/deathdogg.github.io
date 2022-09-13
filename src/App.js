@@ -18,7 +18,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/Flashcards">Flashcards</Link>
+              <Link to="/Flashcards">Flashcards Reader Utility</Link>
             </li>
             <li>
               <Link to="/FlashcardsGenerator">Flashcards Generator</Link>
