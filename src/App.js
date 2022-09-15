@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'
 
 import Flashcards from './components/Flashcards'
+import MWGemCalculator from './components/MWCalculator'
 import Flashcard from './components/Flashcard'
 import FlashcardsGenerator from './components/FlashcardsGenerator';
 import { useDocumentTitle } from './hooks/useDocumentTitle';
@@ -23,6 +24,9 @@ function App() {
             <li>
               <Link to="/FlashcardsGenerator">Flashcards Generator</Link>
             </li>
+            <li>
+              <Link to="/MWGemCalculator" >MW Gem Calculator</Link>
+            </li>
           </ul>
         </nav>
       <Routes>
@@ -31,6 +35,7 @@ function App() {
         <Route path="/Flashcards" element={<Flashcards siteTitle={siteTitle}/>}>
         </Route>
         <Route path="/" element={<Home />}/>
+        <Route path="/MWGemCalculator" element={<MWGemCalculator />}/>
       </Routes>
     </div>
     </Router>
