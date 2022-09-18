@@ -13,6 +13,7 @@ function App() {
 	return (
 		<Router>
 			<div className="App">
+			<h1 className="MainTitle">RH Portfolio</h1>
 				<nav className="NavigationBar">
 					<ul className="NavigationList">
 						<li>

@@ -1,0 +1,10 @@
+.Home {
+ display: block;
+ margin-top: 50px;
+}
+.Home h2 {
+ text-align: center;
+}
+.Home p {
+ text-align: center;
+}
