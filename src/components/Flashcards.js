@@ -4,7 +4,7 @@ import Flashcard from "./Flashcard";
 import useSWR from "swr";
 import { fetcher, shuffle} from './Helpers';
 import { useDocumentTitle } from '../hooks/useDocumentTitle';
-// import './Flashcards.css'
+import './Flashcards.css'
 
 
 const Flashcards = (props) => {
